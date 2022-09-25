@@ -1,9 +1,12 @@
 package main
 
 import (
-	// "fmt"
-	// "strings"
+	"fmt"
+	// "golang.org/x/text/currency"
 )
+
+// "fmt"
+// "strings"
 
 // "bytes"
 // "fmt"
@@ -139,4 +142,22 @@ func main() {
 	// print(res)
 	// age := 20
 	// print(age)
+
+	// 统计字符串中a的个数
+	// const str = "abadgasldkjfaaaa"
+	// var count int
+	// for i := 0; i < len(str); i++ {
+	// 	if str[i] == 'a' {
+	// 		count++
+	// 	}
+	// }
+	// fmt.Printf("count: %v\n", count)
+
+	// 打印9*9乘法表
+	// for i := 1; i < 10; i++ {
+	// 	for j := 1; j <= i; j++ {
+	// 		fmt.Printf("|%v * %v = %v|  ", i, j, i*j)
+	// 	}
+	// 	fmt.Printf("\n")
+	// }
 }
