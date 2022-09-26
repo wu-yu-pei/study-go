@@ -181,7 +181,7 @@
 package main
 
 import (
-	"fmt"
+// "fmt"
 )
 
 func main() {
@@ -204,24 +204,50 @@ func main() {
 	// 	fmt.Printf("value: %v\n", value)
 	// }
 
-	// 声明一个数组
-	friends := [...]string{"liuxu", "wuyupei"}
-	// b := friends[1:2]
-	fmt.Printf("b: %T\n", "A")
-	// a := append(friends[:1], friends[2:])
-	// fmt.Printf("s: %v\n", a)
+	// // 声明一个数组
+	// friends := [...]string{"liuxu", "wuyupei"}
+	// // b := friends[1:2]
+	// fmt.Printf("b: %T\n", "A")
+	// // a := append(friends[:1], friends[2:])
+	// // fmt.Printf("s: %v\n", a)
 
-	var friendsTwo = [...]string{}
-	var friendsThere = [...]string{"a"}
-	fmt.Printf("friendsTwo: %v\n", friendsTwo)
-	fmt.Printf("friendsThere: %v\n", friendsThere)
-	fmt.Printf("friends: %v\n", friends)
+	// var friendsTwo = [...]string{}
+	// var friendsThere = [...]string{"a"}
+	// fmt.Printf("friendsTwo: %v\n", friendsTwo)
+	// fmt.Printf("friendsThere: %v\n", friendsThere)
+	// fmt.Printf("friends: %v\n", friends)
 
-	city := map[string]string{"name": "wuyupei", "age": "20"}
-	cityTwo := make(map[string]string)
-	var cityThere = map[string]string{"a": "B"}
+	// city := map[string]string{"name": "wuyupei", "age": "20"}
+	// cityTwo := make(map[string]string)
+	// var cityThere = map[string]string{"a": "B"}
 
-	fmt.Printf("cityThere: %v\n", cityThere)
-	fmt.Printf("cityTwo: %v\n", cityTwo)
-	fmt.Printf("city: %v\n", city)
+	// fmt.Printf("cityThere: %v\n", cityThere)
+	// fmt.Printf("cityTwo: %v\n", cityTwo)
+	// fmt.Printf("city: %v\n", city)
+
+	// // 遍历
+	// for i := 0; i < 10; i++ {
+	// 	fmt.Printf("i: %v\n", i)
+	// }
+
+	// for i := 0; i < len(friends); i++ {
+	// 	fmt.Printf("friends[%v]: %v\n", i, friends[i])
+	// }
+
+	// for k, v := range friends {
+	// 	fmt.Printf("%v:%v\n", k, v)
+	// }
+
+	// for k, v := range city {
+	// 	fmt.Printf("k: %v\n", k)
+	// 	fmt.Printf("v: %v\n", v)
+	// }
+
+	// a := 10
+	// b := 20
+	// if a > b {
+	// 	fmt.Printf("\"你好\": %v\n", "你好")
+	// } else {
+	// 	fmt.Printf("\"aa\": %v\n", "aa")
+	// }
 }
