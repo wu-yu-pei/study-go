@@ -178,76 +178,119 @@
 // 	fmt.Fprintf(w, "C语言中文网")
 // }
 
-package main
+// package main
 
-import (
-// "fmt"
-)
+// import "fmt"
 
-func main() {
+// // 接口
+// type Eat interface {
+// 	eat() string
+// }
 
-	// 1.0
-	// var person map[string]string
-	// person = make(map[string]string)
+// // 结构体
+// type Person struct {
+// 	name string
+// }
 
-	// 2.0
-	// person := map[string]string{"age": "20"}
+// type PersonOne struct {
+// 	age int
+// }
 
-	// 3.0
-	// var person = map[string]string{"age": "10"}
+// // 方法
+// func (c Person) eat() string {
+// 	return "aa"
+// }
 
-	// person["name"] = "wuyupei"
-	// fmt.Printf("person: %v\n", person)
+// // "fmt"
 
-	// for key, value := range person {
-	// 	fmt.Printf("key: %v\n", key)
-	// 	fmt.Printf("value: %v\n", value)
-	// }
+// func main() {
+// 	var p Person
+// 	p.name = "A"
+// 	p.eat()
+// 	fmt.Printf("p.name: %v\n", p.name)
+// 1.0
+// var person map[string]string
+// person = make(map[string]string)
 
-	// // 声明一个数组
-	// friends := [...]string{"liuxu", "wuyupei"}
-	// // b := friends[1:2]
-	// fmt.Printf("b: %T\n", "A")
-	// // a := append(friends[:1], friends[2:])
-	// // fmt.Printf("s: %v\n", a)
+// 2.0
+// person := map[string]string{"age": "20"}
 
-	// var friendsTwo = [...]string{}
-	// var friendsThere = [...]string{"a"}
-	// fmt.Printf("friendsTwo: %v\n", friendsTwo)
-	// fmt.Printf("friendsThere: %v\n", friendsThere)
-	// fmt.Printf("friends: %v\n", friends)
+// 3.0
+// var person = map[string]string{"age": "10"}
 
-	// city := map[string]string{"name": "wuyupei", "age": "20"}
-	// cityTwo := make(map[string]string)
-	// var cityThere = map[string]string{"a": "B"}
+// person["name"] = "wuyupei"
+// fmt.Printf("person: %v\n", person)
 
-	// fmt.Printf("cityThere: %v\n", cityThere)
-	// fmt.Printf("cityTwo: %v\n", cityTwo)
-	// fmt.Printf("city: %v\n", city)
+// for key, value := range person {
+// 	fmt.Printf("key: %v\n", key)
+// 	fmt.Printf("value: %v\n", value)
+// }
 
-	// // 遍历
-	// for i := 0; i < 10; i++ {
-	// 	fmt.Printf("i: %v\n", i)
-	// }
+// // 声明一个数组
+// friends := [...]string{"liuxu", "wuyupei"}
+// // b := friends[1:2]
+// fmt.Printf("b: %T\n", "A")
+// // a := append(friends[:1], friends[2:])
+// // fmt.Printf("s: %v\n", a)
 
-	// for i := 0; i < len(friends); i++ {
-	// 	fmt.Printf("friends[%v]: %v\n", i, friends[i])
-	// }
+// var friendsTwo = [...]string{}
+// var friendsThere = [...]string{"a"}
+// fmt.Printf("friendsTwo: %v\n", friendsTwo)
+// fmt.Printf("friendsThere: %v\n", friendsThere)
+// fmt.Printf("friends: %v\n", friends)
 
-	// for k, v := range friends {
-	// 	fmt.Printf("%v:%v\n", k, v)
-	// }
+// city := map[string]string{"name": "wuyupei", "age": "20"}
+// cityTwo := make(map[string]string)
+// var cityThere = map[string]string{"a": "B"}
 
-	// for k, v := range city {
-	// 	fmt.Printf("k: %v\n", k)
-	// 	fmt.Printf("v: %v\n", v)
-	// }
+// fmt.Printf("cityThere: %v\n", cityThere)
+// fmt.Printf("cityTwo: %v\n", cityTwo)
+// fmt.Printf("city: %v\n", city)
 
-	// a := 10
-	// b := 20
-	// if a > b {
-	// 	fmt.Printf("\"你好\": %v\n", "你好")
-	// } else {
-	// 	fmt.Printf("\"aa\": %v\n", "aa")
-	// }
-}
+// // 遍历
+// for i := 0; i < 10; i++ {
+// 	fmt.Printf("i: %v\n", i)
+// }
+
+// for i := 0; i < len(friends); i++ {
+// 	fmt.Printf("friends[%v]: %v\n", i, friends[i])
+// }
+
+// for k, v := range friends {
+// 	fmt.Printf("%v:%v\n", k, v)
+// }
+
+// for k, v := range city {
+// 	fmt.Printf("k: %v\n", k)
+// 	fmt.Printf("v: %v\n", v)
+// }
+
+// a := 10
+// b := 20
+// if a > b {
+// 	fmt.Printf("\"你好\": %v\n", "你好")
+// } else {
+// 	fmt.Printf("\"aa\": %v\n", "aa")
+// }
+// 切片
+// var a []int
+// a = append(a, 1)
+// fmt.Printf("a: %T\n", a)
+// 数组
+// var b = [...]int{1, 2, 3}
+// fmt.Printf("b: %T\n", b)
+// c := func (arr []int){
+// 	 arr = append(arr[:], 4)
+// 	 fmt.Printf("res: %v\n", arr)
+// 	 return
+// }
+// c(a)
+// fmt.Printf("b: %v\n", a)
+
+// type
+// type myInt int
+// var a myInt = 10
+// fmt.Printf("a: %v\n", a)
+
+// interface
+// }
